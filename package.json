@@ -7,7 +7,6 @@
   "repository": "git@github.com:coelhucas/mini-styled.git",
   "author": "Lucas Coelho <lucascoelhodacosta@gmail.com>",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "build": "rollup -c"
   },
