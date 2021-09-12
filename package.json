@@ -1,8 +1,9 @@
 {
   "name": "mini-styled",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A mini version of styled-components",
-  "main": "lib/miniStyled.js",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
   "repository": "git@github.com:coelhucas/mini-styled.git",
   "author": "Lucas Coelho <lucascoelhodacosta@gmail.com>",
   "license": "MIT",
@@ -20,11 +21,11 @@
     "babel-core": "^6.26.3",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-runtime": "^6.26.0",
-
     "rollup": "^2.56.3",
     "rollup-plugin-peer-deps-external": "^2.2.4"
   },
   "dependencies": {
+    "@babel/runtime": "^7.15.4",
     "stylis": "^4.0.10"
   },
   "peerDependencies": {
