@@ -73,7 +73,8 @@ function injectCSS(hash, css) {
     if (rule) {
       // Reapplies the missing '}' from previous split
       const resolvedRule = `${rule}}`;
-      styleSheet.insertRule(resolvedRule);
+      const index = rule.includes('media') ? styleSheet.cssRules.length : 0;
+      styleSheet.insertRule(resolvedRule, index);
     }
   })
 
