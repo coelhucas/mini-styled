@@ -40,7 +40,7 @@ const Button = styled.button`
 
 const MyComponent = () => (
   <Wrapper>
-    <Button customBg="#92929C">Click me</Button>
+    <Button customBg="yellow">Click me</Button>
   </Wrapper>
 );
 ```
