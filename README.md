@@ -4,7 +4,7 @@
 This is meant to be a subset of [styled-components](https://github.com/styled-components/styled-components) features. It was made as a study project in order to give better understanding of the original
 `styled-components` source and some of the concepts usages.
 
-⚠️ This doesn't work with SSR, since this library uses a [browser API](https://developer.mozilla.org/en-US/docs/Web/API/Document). See [NextJS usage](#nextjs) for a workaround.
+⚠️ This doesn't work with SSR, since this library uses a [browser API](https://developer.mozilla.org/en-US/docs/Web/API/Document). If you need something for a real production application, use [styled-components](https://github.com/styled-components/styled-components) instead.
 
 ## Installation
 
@@ -48,9 +48,6 @@ And then you'll see this in your project:
 
 ![image](https://user-images.githubusercontent.com/28108272/132994589-7b1c3c9d-9396-479e-8efd-79b4fa13cead.png)
 
-### NextJS
-In order to get `mini-styled` working in NextJS, one might add `experimental: { esmExternals: true }` to their `next.config.js`. Note that this is a [experimental](https://nextjs.org/blog/next-11-1#es-modules-support) feature.
-
 ## API
 
 The existing API at this moment expose only the `styled` factory, which works for HTML Elements and React Components, just as styled.
@@ -64,6 +61,7 @@ It supports media queries, pseudo classes and general features oferred by [Styli
 - [ ] Make it work natively with SSR
 
 Feel free to contribute to this project, to increase its features, improve its code and etc!
+And although this isn't a project I'm willing to take too seriously, feel free to report issues, I'll take a look as soon as possible.
 
 ## Acknowledgements
 - Special thanks to [Josh](https://twitter.com/JoshWComeau).
