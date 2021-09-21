@@ -1,6 +1,6 @@
 {
   "name": "mini-styled",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A mini version of styled-components",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
