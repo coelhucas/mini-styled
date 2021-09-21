@@ -4,7 +4,9 @@
 This is meant to be a subset of [styled-components](https://github.com/styled-components/styled-components) features. It was made as a study project in order to give better understanding of the original
 `styled-components` source and some of the concepts usages.
 
-⚠️ This doesn't work with SSR, since this library uses a [browser API](https://developer.mozilla.org/en-US/docs/Web/API/Document). If you need something for a real production application, use [styled-components](https://github.com/styled-components/styled-components) instead.
+ℹ️ This project is ~1.8% the size of real `styled-components` (package unpacked size);
+
+⚠️ It doesn't work with SSR, since this library uses a [browser API](https://developer.mozilla.org/en-US/docs/Web/API/Document). If you need something for a real production application, use [styled-components](https://github.com/styled-components/styled-components) instead.
 
 ## Installation
 
